@@ -1,0 +1,19 @@
+@import "./reset.css";
+/* css 연결. style불러오면 reset.css도 같이 불러오기. */
+@import "./component/header.css";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@100..900&display=swap");
+
+@import "./component/intro.css";
+@import "./login.css";
+
+:root {
+  /* 글자 그림자 하나 */
+  --text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.25);
+
+  /* 박스(카드, 버튼 등) 그림자 하나 */
+  --box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  font-family: "Nanum Myeongjo", serif;
+}
